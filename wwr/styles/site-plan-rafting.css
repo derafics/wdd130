@@ -40,7 +40,7 @@ nav {
     display: flex;
 }
   
-nav a {
+nav a{
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
