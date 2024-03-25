@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+
+body {
+    font-family: var(--poppins);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #033489;
+    --secondary-color: #17315F;
+    --accent1-color: #CDE0FF;
+    --accent2-color: #5579B8;
+  
+    --heading-font: 'poppins', serif;
+    --paragraph-font: 'fira sans', serif;
+  
+    --nav-background-color: #CDE0FF;
+    --nav-link-color: #17315F;
+    --nav-hover-link-color: #033489;
+    --nav-hover-background-color: #5579B8;
+}
+        
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+  
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 2rem;
+    font-weight: bold;
+}
+  
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+  
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
