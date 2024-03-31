@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+
+body {
+    font-family: var(--poppins);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #033489;
+    --secondary-color: #17315F;
+    --accent1-color: #CDE0FF;
+    --accent2-color: #5579B8;
+  
+    --heading-font: 'poppins', serif;
+    --paragraph-font: 'fira sans', serif;
+  
+    --nav-background-color: #CDE0FF;
+    --nav-link-color: #17315F;
+    --nav-hover-link-color: #033489;
+    --nav-hover-background-color: #5579B8;
+}
+  
+.hero h1 {
+    font-weight: bold;
+    color: #17315F;
+}
+footer a {
+    text-decoration: none;
+    color: #17315F;
+}
+
+.hero {
+    position: relative;
+}
+.hero h1, .hero article{
+    position: absolute;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: right;
+}
+.hero article {
+    background-color: #CDE0FF;
+    color: #17315F;
+    opacity: 1;
+}
